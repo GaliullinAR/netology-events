@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/gpk7369ddgd2f0kr?svg=true)](https://ci.appveyor.com/project/GaliullinAR/netology-events)
