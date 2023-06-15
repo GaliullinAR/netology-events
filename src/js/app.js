@@ -8,4 +8,3 @@ const game = new GoblinGame('.goblin', img);
 resetButton.addEventListener('click', () => {
   overlay.style.display = 'none';
 });
-

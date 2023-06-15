@@ -1,4 +1,3 @@
-
 export default class GoblinGame {
   constructor(selector, img, options = {}) {
     if (typeof selector === 'string') {
