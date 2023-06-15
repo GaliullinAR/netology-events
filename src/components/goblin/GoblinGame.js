@@ -1,13 +1,13 @@
-import image from './face.png';
 
 export default class GoblinGame {
-  constructor(selector, options = {}) {
+  constructor(selector, img, options = {}) {
     if (typeof selector === 'string') {
       this.selector = document.querySelector(selector);
     } else {
       throw new Error('Селектор не найден');
     }
 
+    this.img = img;
     this.options = options;
     this.count = 0;
     this.slope = 0;
@@ -64,7 +64,7 @@ export default class GoblinGame {
   createGoblinImg() {
     const img = document.createElement('img');
     img.classList.add('goblin__item-img');
-    img.src = image;
+    img.src = this.img;
     if (this.getIndexImg === -1) {
       this.selector.children[this.randomNum].appendChild(img);
     }
