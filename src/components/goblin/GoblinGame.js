@@ -4,6 +4,8 @@ export default class GoblinGame {
   constructor(selector, options = {}) {
     if (typeof selector === 'string') {
       this.selector = document.querySelector(selector);
+    } else {
+      throw new Error('Селектор не найден');
     }
 
     this.options = options;

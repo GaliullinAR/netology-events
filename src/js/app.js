@@ -8,4 +8,3 @@ resetButton.addEventListener('click', () => {
   overlay.style.display = 'none';
 });
 
-window.game = game;
