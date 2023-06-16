@@ -7,9 +7,9 @@ window.addEventListener('mousemove', (e) => {
 });
 
 window.addEventListener('mousedown', (e) => {
-  cursor.style.transform = `translate(-50%, -50%) rotate(45deg)`;
-})
+  cursor.style.transform = 'translate(-50%, -50%) rotate(45deg)';
+});
 
 window.addEventListener('mouseup', () => {
-  cursor.style.transform = `translate(-50%, -50%) rotate(0)`;
-})
+  cursor.style.transform = 'translate(-50%, -50%) rotate(0)';
+});
