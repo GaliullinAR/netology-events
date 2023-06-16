@@ -1,5 +1,9 @@
 import img from '../components/goblin/face.png';
+import './cursor';
 import GoblinGame from '../components/goblin/GoblinGame';
+
+
+
 
 const overlay = document.querySelector('.overlay');
 const resetButton = document.querySelector('.restart');
